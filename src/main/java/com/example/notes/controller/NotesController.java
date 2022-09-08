@@ -17,7 +17,7 @@ import com.example.notes.model.Note;
 import com.example.notes.service.NoteService;
 
 @RestController
-@RequestMapping("/note")
+@RequestMapping("/api/v1/note")
 @CrossOrigin
 public class NotesController {
 
