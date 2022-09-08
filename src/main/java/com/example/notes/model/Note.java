@@ -22,7 +22,8 @@ public class Note {
 	@NonNull
 	@Column(nullable = false)
 	private String title;
-
+	
+	@Column(nullable = false, columnDefinition = "TEXT")
 	private String text;
 
 	public Note() {
